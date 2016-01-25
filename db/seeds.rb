@@ -7,15 +7,15 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 u = User.new
-u.email = "ss@ss.com"
+u.email = "q@q.com"
 u.password = "12341234"
 u.password_confirmation = "12341234"
 u.is_admin = true
 u.save
 
 u = User.new
-u.email = "dd@dd.com"
+u.email = "w@w.com"
 u.password = "12341234"
 u.password_confirmation = "12341234"
-u.is_admin = true
+u.is_admin = false
 u.save
