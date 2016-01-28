@@ -80,7 +80,7 @@ Rails.application.configure do
   config.after_initialize do
     Pay2go.integration_mode = :development
   end
-  config.action_mailer.default_url_options = { host: 'https://peaceful-beach-93735.herokuapp.com' } # 你的 heroku app 網址
+  config.action_mailer.default_url_options = { host: 'artstore-demo.herokuapp.com' } # 你的 heroku app 網址
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
